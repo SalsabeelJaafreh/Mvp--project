@@ -1,0 +1,12 @@
+
+<title><h1>My movie list</h1></title>
+<h1>My movie list</h1
+<div class="search-bar form-inline">
+	  <input ngclass="form-control" placeholder="your name here!" ng-model="$ctrl.user" type="text" />
+	  <br></br>
+  <input ngclass="form-control" placeholder="Add your movie here!" ng-model="$ctrl.movie" type="text" />
+  <br></br>
+  <button class="btn" ng-click="$ctrl.addmovie($ctrl.movie)">
+    <span>add movie</span>
+  </button>
+</div>
